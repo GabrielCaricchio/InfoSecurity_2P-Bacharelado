@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    background: #420254;
+    background-image: url(retro-wave-24k-zx-1680x1050.jpg);
+}
+
+.app{
+    background: #64177a8c;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.app h1{
+    text-align: center;
+    color: #fff;
+    font-weight: 25px;
+    font-weight: 600;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 30px;
+}
+
+.quiz{
+    padding: 20px 0;
+}
+
+.quiz h2{
+    color:rgb(42, 214, 83);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn{
+    background: #420254;
+    color: #fff;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid rgb(42, 214, 83);
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]){
+    background: rgb(206, 148, 237);
+    color: #000;
+}
+
+.btn[disabled]{
+    cursor: no-drop
+}
+
+#next-btn{
+    background: rgb(42, 214, 83);
+    color: #420254;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+.correct{
+    border-color: rgb(42, 214, 83);
+    background: rgb(42, 214, 83);
+    color: #000;
+}
+
+.incorrect{
+    border-color: red;
+    background: red;
+    color: #ffffff;
+}
